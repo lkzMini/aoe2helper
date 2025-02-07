@@ -1,0 +1,326 @@
+[
+  {
+    "civilizacion": "Bizantinos",
+    "estrategias": {
+      "feudal": "Trash para contrarrestar Scouts o Arqueros.",
+      "castillos": "Guerrilla o Camellos, para contrarrestar Ballesteros o Jinetes.",
+      "imperial": "Imperial temprano y posible cambio a Arbalesta."
+    },
+    "respuesta": "La combinación de unidades que valen oro (No trash), es más fuerte que una combinación de trash puro. Caro pero efectivo."
+  },
+  {
+    "civilizacion": "Celtas",
+    "estrategias": {
+      "feudal": "Juego defensivo para aprovechar eco sólida y apurar Castillos.",
+      "castillos": "Contra unidades y asedio.",
+      "imperial": "Similar a Castillos. Puede raidear con invasores de pasto (Unidad única)."
+    },
+    "respuesta": "Vulnerable a la movilidad y los monjes con Santidad y Redención. CA, Jinetes y buenos Monjes son buena respuesta."
+  },
+  {
+    "civilizacion": "Chinos",
+    "estrategias": {
+      "feudal": "Civ versátil, mantener explorado por Rush de Scout o Arqueros.",
+      "castillos": "Ballesteros + Camellos/Jinetes.",
+      "imperial": "Arbalesta/Chu Ko Nu + Infantería + Lanzapiedra."
+    },
+    "respuesta": "Aprovechará sus tecnologías baratas para combinar army fuerte. Es suceptible a unidades de largo alcance y la movilidad en Imperial."
+  },
+  {
+    "civilizacion": "Eslavos",
+    "estrategias": {
+      "feudal": "Rush de Scout en la mayoría de los casos.",
+      "castillos": "Caballería pesada o rush de Infantería + Asedio.",
+      "imperial": "Similar a Castillos, buen asedio e infantería. Unidad única que contrarresta unidades cuerpo a cuerpo."
+    },
+    "respuesta": "Cañón de asedio, unidades a distancia y alabardero son un combo muy sólido contra Eslavo."
+  },
+  {
+    "civilizacion": "Francos",
+    "estrategias": {
+      "feudal": "Rush de Scouts.",
+      "castillos": "Jinetes en casi cualquier caso. Piqueros + Asedio es la otra opción.",
+      "imperial": "Paladines, Artillero manual y Cañones son sus mejores unidades. Pésimo trash para lategame."
+    },
+    "respuesta": "Alabarderos en grandes cantidades, Arbalesta y Cañones propios son un buen combo."
+  },
+  {
+    "civilizacion": "Godos",
+    "estrategias": {
+      "feudal": "Rush de Infantería, contra unidades y posibles torres.",
+      "castillos": "Infantería + Boom es generalmente la mejor estrategia.",
+      "imperial": "Spam de Infantería. Posibles Artilleros manuales y cañones de asedio."
+    },
+    "respuesta": "Se aconseja negarle la recolección de Piedra y presionarlo desde temprano. Vulnerable al asedio y unidades de pólvora."
+  },
+  {
+    "civilizacion": "Hunos",
+    "estrategias": {
+      "feudal": "Rush de Scouts.",
+      "castillos": "Arqueros a Caballo y/o Jinetes (Explorar).",
+      "imperial": "Paladines y unidades de asedio."
+    },
+    "respuesta": "Tienen Arqueros a caballo baratos. En Imperial no son muy buenos. La producción rápida de establos, pueden llevarlos a cambiar a Húsar temprano o Paladines."
+  },
+  {
+    "civilizacion": "Ingleses",
+    "estrategias": {
+      "feudal": "Rush de Arqueros.",
+      "castillos": "Ballesteros + Piqueros en pocas cantidades (Generalmente apostarán al boom).",
+      "imperial": "Arbalesta + Alabarderos + Lanzapiedras."
+    },
+    "respuesta": "Mantén explorado al rival y responde con guerrilleros o mangoneles."
+  },
+  {
+    "civilizacion": "Indostanos",
+    "estrategias": {
+      "feudal": "Rush de Scouts.",
+      "castillos": "Arqueros a caballo o Camellos + Boom.",
+      "imperial": "Camellos o Húsares + Pólvora."
+    },
+    "respuesta": "Combo de Arbalesta + Húsares + Cañones podrían ser buen combo. Monjes con Redención sería un buen plus para convertir cañones rivales."
+  },
+  {
+    "civilizacion": "Mayas",
+    "estrategias": {
+      "feudal": "Rush de Arqueros.",
+      "castillos": "Ballesteros o Guerrero Águila.",
+      "imperial": "Arbalesta + Alabardero. Guerrero Águila de elite es una opción sólida contra civs de Arqueros y Asedio."
+    },
+    "respuesta": "Caballería pesada + Asedio son un buen combo a corto plazo. A Largo plazo, infantería pesada + Guerrilla puede funcionar."
+  },
+  {
+    "civilizacion": "Mongoles",
+    "estrategias": {
+      "feudal": "Rush de Scouts.",
+      "castillos": "Arqueros a Caballo.",
+      "imperial": "Mangudai, Asedio, Húsares."
+    },
+    "respuesta": "Caballería pesada funciona generalmente bien contra el Mongol a partir de Imperial."
+  },
+  {
+    "civilizacion": "Aztecas",
+    "estrategias": {
+      "feudal": "Infantería + Guerrilla",
+      "castillos": "Infantería, Asedio, Monjes.",
+      "imperial": "Guerreros Águila de élite + Piqueros. O Piqueros + Asedio."
+    },
+    "respuesta": "Muros de piedra para evitar raideos, caballería pesada y guerrilleros, son un buen combo en general."
+  },
+  {
+    "civilizacion": "Persas",
+    "estrategias": {
+      "feudal": "Rush de Scouts.",
+      "castillos": "Jinetes o Camellos y/o Arqueros a caballo.",
+      "imperial": "Húsares + Arquero trash (Corona de castillo) + Cañones. Savar en casos raros."
+    },
+    "respuesta": "Arbalesta + Alabarderos + Cañones son un buen combo en general. Buenos Camellos + Guerrilleros y Cañones pueden servir."
+  },
+  {
+    "civilizacion": "Vikingos",
+    "estrategias": {
+      "feudal": "Rush de Arqueros o Trash.",
+      "castillos": "Trash + Asedio",
+      "imperial": "Infantería + Asedio."
+    },
+    "respuesta": "Muy vulnerable a la movilidad. Guerrilla + Asedio para defender, Húsares para atacar por flancos."
+  },
+  {
+    "civilizacion": "Japoneses",
+    "estrategias": {
+      "feudal": "Rush de Arqueros o Trash. Ocasionales torres.",
+      "castillos": "Arqueros a caballo.",
+      "imperial": "Infantería + Arquero a caballo + Asedio."
+    },
+    "respuesta": "Guerrilla + Caballería pueden funcionar bastante bien. El asedio Japonés es vulnerable a los Cañones y los monjes con redención."
+  },
+  {
+    "civilizacion": "Teutones",
+    "estrategias": {
+      "feudal": "Rush de Scouts. Ocasionalmente torres + Arqueros.",
+      "castillos": "Infantería + Asedio + Monjes.",
+      "imperial": "Alabarderos + Artilleros manuales + Cañones."
+    },
+    "respuesta": "Vulnerable a la movilidad. Arqueros a caballo son una gran alternativa."
+  },
+  {
+    "civilizacion": "Sarracenos",
+    "estrategias": {
+      "feudal": "Rush de Arqueros.",
+      "castillos": "Ballesteros + Camellos. Abuso del mercado para rush agresivos con Asedio y Monjes.",
+      "imperial": "Camello + Arbalesta a corto plazo. Arbalesta + Húsares es el combo más común."
+    },
+    "respuesta": "Vulnerable a Arqueros a caballo Premium (Como los CA Magiares con corona) + Alabarderos. Y Arqueros únicos como el Arquero de Tiro largo, Pluma o Rattan."
+  },
+  {
+    "civilizacion": "Armenios",
+    "estrategias": {
+      "feudal": "Rush de infantería y Trash.",
+      "castillos": "Juego defensivo en Castillos temprano. Grandes chances de Infantería pesada en Castillos tardío.",
+      "imperial": "Arquero compuesto (Unidad única) + infantería."
+    },
+    "respuesta": "El Asedio es la mejor unidad posible contra el Armenio. Y la movilidad."
+  },
+  {
+    "civilizacion": "Bengalíes",
+    "estrategias": {
+      "feudal": "Juego defensivo y Castillos rápido. O Rush de Arqueros.",
+      "castillos": "Rush de Asedio + Monjes o Boom.",
+      "imperial": "Arqueros en Elefante + Caballería ligera."
+    },
+    "respuesta": "Aprovechar la lentitud de la civilización para proponer juegos tempranos en Feudal y castillos. En Imperial combinar Húsares, Guerrilla y Arietes."
+  },
+  {
+    "civilizacion": "Birmanos",
+    "estrategias": {
+      "feudal": "Trash",
+      "castillos": "Unidad única o rush de Trash + Monjes y asedio.",
+      "imperial": "Húsares, Monjes y asedio. Posible transición a infantería pesada."
+    },
+    "respuesta": "Vulnerable a cualquier unidad a distancia."
+  },
+  {
+    "civilizacion": "Búlgaros",
+    "estrategias": {
+      "feudal": "Rush de Scouts.",
+      "castillos": "Arqueros a Caballo o Jinetes (Explorar).",
+      "imperial": "Alabarderos + Asedio"
+    },
+    "respuesta": "Es vulnerable en Imperial a las unidades a distancia y alabarderos combinados. Sin embargo, requerirás cañones."
+  },
+  {
+    "civilizacion": "Cumanos",
+    "estrategias": {
+      "feudal": "Rush de Scouts + unidades de rango. O doble Centro urbano en Feudal (Explorar).",
+      "castillos": "Rush de lancero estepario + Asedio es muy común en castillos.",
+      "imperial": "Posible transición a Húsares + Kipchak."
+    },
+    "respuesta": "Muy vulnerable a unidades a distancia en etapas tempranas de partida. Si te walleas bien, en imperial con buenos Arqueros a Caballo y Húsares, deberías poder ganar."
+  },
+  {
+    "civilizacion": "Dravidicos",
+    "estrategias": {
+      "feudal": "Trash.",
+      "castillos": "Trash + Asedio o Boom.",
+      "imperial": "Arqueros en Elefante + Asedio. O Trash + Asedio."
+    },
+    "respuesta": "Muy vulnerables a la movilidad. Defenderse con cañones y trash y raidearlo con Húsares es la solución más fácil."
+  },
+  {
+    "civilizacion": "Etíopes",
+    "estrategias": {
+      "feudal": "Rush de Arqueros.",
+      "castillos": "Ballesteros + Asedio + Piqueros.",
+      "imperial": "Arbalesta + Alabarderos + Asedio."
+    },
+    "respuesta": "Defenderte con cañones y guerrilleros mientras se abusa de la movilidad podría ser la mejor alternativa."
+  },
+  {
+    "civilizacion": "Gurjaras",
+    "estrategias": {
+      "feudal": "Rush de Scouts.",
+      "castillos": "Ballesteros + Camellos suele ser el combo más usado.",
+      "imperial": "Húsares + Artilleros manuales + Cañones. O Arqueros en elefante."
+    },
+    "respuesta": "Arbalesta + Alabarderos + cañones podría ser una buena solución a corto plazo. A largo plazo, el Gurjara no tiene buen trash."
+  },
+  {
+    "civilizacion": "Italianos",
+    "estrategias": {
+      "feudal": "Trash.",
+      "castillos": "Trash y asedio defensivo.",
+      "imperial": "Pase a imperial temprano + Arbalesta + Cañones."
+    },
+    "respuesta": "Llegar a Imperial con buena economía es importante en este caso. Es difícil subir antes que el italiano. Pero con Guerrilla + Caballería pesada, podrías tener un combo ideal."
+  },
+  {
+    "civilizacion": "Jemeres",
+    "estrategias": {
+      "feudal": "Rush de Scouts.",
+      "castillos": "Jinetes + asedio o Ballesteros + Jinetes.",
+      "imperial": "Husar + Escorpiones o Arbalestas. Elefantes podría ser una opción."
+    },
+    "respuesta": "Con una civ con cañones de asedio o buenos ónagros, podrías hacerle frente a cualquier army que proponga. Con Húsares o Alabarderos en primera línea."
+  },
+  {
+    "civilizacion": "Coreanos",
+    "estrategias": {
+      "feudal": "Rush de Arqueros y/o posibles torres.",
+      "castillos": "Ballesteros o Trash y Torres.",
+      "imperial": "Arbalesta + Cañones + Torres."
+    },
+    "respuesta": "Vulnerable a caballería pesada y mejores cañones. Podrías abusar de tu movilidad (Húsares) y defenderte solo con lo necesario."
+  },
+  {
+    "civilizacion": "Lituanos",
+    "estrategias": {
+      "feudal": "Rush de Scouts.",
+      "castillos": "Jinetes y caballería ligera + Monjes (Para Reliquias).",
+      "imperial": "Leities + Guerrilla (Idealmente)."
+    },
+    "respuesta": "Arqueros a caballo + Alabarderos podrían ser un buen combo. Arqueros a caballo + Húsares podrían rendir para abusar de la movilidad."
+  },
+  {
+    "civilizacion": "Malayos",
+    "estrategias": {
+      "feudal": "Pase a Feudal rápido (Y con más aldeanos). Trash defensivo.",
+      "castillos": "Elefantes baratos en Castillos + Asedio y Monjes.",
+      "imperial": "Elefantes + Guerrilla + Cañones."
+    },
+    "respuesta": "Los elefantes Malayos carecen de mejoras de herrería. Puedes abusar de Alabarderos y buenos Arqueros a caballo para defenderte y pasar a la ofensiva."
+  },
+  {
+    "civilizacion": "Malíes",
+    "estrategias": {
+      "feudal": "Rush de Scout.",
+      "castillos": "Jinetes o Camellos + Asedio.",
+      "imperial": "Caballería ligera o Camellos con Farimba + Asedio."
+    },
+    "respuesta": "Débil contra combos de Caballería pesada + Alabarderos. Tus propios cañones ayudarían bastante para pushear."
+  },
+  {
+    "civilizacion": "Portugueses",
+    "estrategias": {
+      "feudal": "Rush de Arqueros.",
+      "castillos": "Ballesteros + Jinetes + Asedio.",
+      "imperial": "Organ Gun + Alabarderos son el combo más común. Artillero manual es otra opción."
+    },
+    "respuesta": "Carecen de movilidad pero sus unidades de costo Oro son más baratas. Abusar de tu movilidad y obligarlo a jugar tu juego, es tu mejor herramienta."
+  },
+  {
+    "civilizacion": "Romanos",
+    "estrategias": {
+      "feudal": "Rush de Infantería.",
+      "castillos": "Piqueros + Spam de Escorpiones (+ Balística).",
+      "imperial": "Legionario/Alabardero + Ariete de asedio + Escorpión."
+    },
+    "respuesta": "Vulnerable a Cañones de asedio, Ónagros y la movilidad."
+  },
+  {
+    "civilizacion": "Tártaros",
+    "estrategias": {
+      "feudal": "Rush de Scouts.",
+      "castillos": "Arqueros a caballo o Lancero estepario.",
+      "imperial": "Arquero a caballo + Húsares."
+    },
+    "respuesta": "Vulnerables a Cañones de asedio y Camellos premium."
+  },
+  {
+    "civilizacion": "Turcos",
+    "estrategias": {
+      "feudal": "Rush de Scouts.",
+      "castillos": "Arqueros a caballo + Caballería ligera. O asedio + monjes defensivos.",
+      "imperial": "Pólvora + húsares o Arqueros a caballo + Húsares + Cañones."
+    },
+    "respuesta": "Usa caballería pesada y escaramuzadores. Sus unidades de pólvora son fuertes pero costosas."
+  },
+  {
+    "civilizacion": "Vietnamitas",
+    "estrategias": {
+      "feudal": "Rush de Arqueros.",
+      "castillos": "Ballesteros + Boom.",
+      "imperial": "Arqueros Rattan + Cañones."
+    },
+    "respuesta": "Los arqueros Rattan son vulnerables a los combate cuerpo a cuerpo. La movilidad podría ser clave."
+  }
+]

@@ -1,0 +1,10 @@
+# Ignorar la carpeta de builds
+dist/
+
+# Ignorar dependencias (si usas Node.js, Python, etc.)
+node_modules/
+venv/
+
+# Ignorar archivos innecesarios
+*.log
+*.tmp

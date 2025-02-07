@@ -1,0 +1,38 @@
+{
+  "shortcuts": {
+    "toggleMode": {
+      "key": "'",
+      "ctrl": false,
+      "alt": false,
+      "shift": false,
+      "description": "Cambiar entre modo normal y compacto"
+    },
+    "toggleInteraction": {
+      "key": "¡",
+      "ctrl": false,
+      "alt": false,
+      "shift": false,
+      "description": "Habilitar/deshabilitar interacción en modo compacto"
+    },
+    "togglePause": {
+      "key": "p",
+      "ctrl": true,
+      "alt": false,
+      "shift": false,
+      "description": "Pausar/Reanudar la aplicación"
+    },
+    "hideApp": {
+      "key": "0",
+      "ctrl": false,
+      "alt": false,
+      "shift": false,
+      "description": "Ocultar la aplicación"
+    }
+  },
+  "compactMode": {
+    "backgroundTransparency": 0.05,
+    "contentOpacity": 0.95,
+    "defaultInteractive": true
+  },
+  "isPaused": false
+}

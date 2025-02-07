@@ -1,0 +1,159 @@
+/* Estilo base para el tema oscuro */
+body {
+  background-color: #121212; /* Fondo oscuro */
+  color: #E0E0E0; /* Texto ligeramente gris para evitar contraste extremo */
+  font-family: Arial, sans-serif; /* Ajusta según la fuente usada */
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Evita el scroll en el body */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Enlaces */
+a {
+  color: #BB86FC; /* Un morado amigable para enlaces */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FF79C6; /* Color al pasar el cursor */
+}
+
+/* Botones */
+button {
+  background-color: #1F1F1F; /* Fondo oscuro */
+  color: #E0E0E0; /* Texto claro */
+  border: 1px solid #333; /* Borde tenue */
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #333; /* Fondo un poco más claro al pasar el cursor */
+  color: #FFF;
+}
+
+/* Inputs */
+input, textarea {
+  background-color: #1F1F1F;
+  color: #E0E0E0;
+  border: 1px solid #333;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #BB86FC; /* Resaltado amigable al enfoque */
+}
+
+/* Contenedor principal */
+.container {
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  margin: 10px;
+  padding: 15px;
+  background-color: #1E1E1E;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  background-color: #242424; /* Fondo más claro para tarjetas */
+  color: #E0E0E0;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Tablas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #1F1F1F;
+  color: #E0E0E0;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #333;
+  text-align: left;
+}
+
+th {
+  background-color: #2B2B2B;
+}
+
+tr:nth-child(even) {
+  background-color: #2A2A2A;
+}
+
+/* Área de información con scroll interno */
+.info-box {
+  margin-top: 15px;
+  padding: 15px;
+  background-color: #242424;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
+  flex-grow: 1;
+  margin-bottom: 10px;
+}
+
+/* Estilos responsive para el texto */
+h1 {
+  font-size: clamp(1.2rem, 4vw, 2rem);
+  margin: 0 0 15px 0;
+  color: #E0E0E0;
+}
+
+h2 {
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  margin-bottom: 10px;
+  color: #BB86FC;
+}
+
+p {
+  font-size: clamp(0.8rem, 2vw, 1rem);
+  line-height: 1.4;
+  margin-bottom: 8px;
+}
+
+/* Estilos para el select */
+.select-container {
+  flex-shrink: 0;
+  margin-bottom: 15px;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  background-color: #1F1F1F;
+  color: #E0E0E0;
+  border: 1px solid #333;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: clamp(0.8rem, 2vw, 1rem);
+}
+
+/* Scrollbar personalizado */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #777;
+}

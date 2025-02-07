@@ -1,0 +1,68 @@
+[
+  {
+    "nombre": "Fast Castle (26+2) (Incompleto aún)",
+    "descripcion": "En construcción, ignorar",
+    "pasos": [
+      "6 aldeanos a ovejas",
+      "3 a madera",
+      "1 a jabalí",
+      "4 a bayas",
+      "1 a jabalí",
+      "2 a granjas",
+      "3 a oro",
+      "5 a granjas",
+      "Construir Mercado y Herrería mientras sube",
+      "Subir a Castillos apenas sea posible"
+    ],
+    "notas": "En construcción, no utilizar."
+  },
+  {
+    "nombre": "Fast Feudal into Archers (para TG)",
+    "descripcion": "Build order optimizado para una edad Feudal rápida con transición a arqueros. Puede variar según la civ (levemente).",
+    "pasos": [
+      "6 aldeanos a ovejas",
+      "3 aldeanos a madera",
+      "Aldeano 10 atrae jabalí al TC",
+      "Aldeano 11 construye casa",
+      "Aldeano 12 construye molino",
+      "Aldeano 11 + aldeano 13 se unen a las bayas",
+      "Aldeanos 14 y 15 a ovejas/jabalíes/ciervos",
+      "Aldeanos 16, 17 y 18 a madera (total 6)",
+      "Aldeano 19 construye segundo maderero",
+      "Un aldeano del Molino, construye Cuartel + Casa",
+      "Clic Telar y Feudal",
+      "Al clickear Feudal: +5 aldeanos a nuevo bosque (total 11 en madera)",
+      "2 aldeanos de las ovejas, se mueven al oro",
+      "Investigar Hacha de doble filo y completar 7-9 en oro",
+      "Construir doble arquería con aldeanos de frutas u ovejas",
+      "Los 2 aldeanos que construyeron arquerías, ahora wallean",
+      "Producir arqueros de forma constante pero controlada",
+      "Construir herrería + mejora de daño para arqueros"
+    ],
+    "notas": "Si eres punta, la prioridad es atacar temprano a tu rival, para tomar la iniciativa. Es obligatorio sacar un lancero para acompañar a los arqueros hasta que tu compañero llegue a auxiliar."
+  },
+  {
+    "nombre": "Fast Feudal into Scouts",
+    "descripcion": "Build order optimizado para una edad Feudal rápida con transición a exploradores. Ideal para civilizaciones con bonus de caballería o economía temprana.",
+    "pasos": [
+      "6 aldeanos a ovejas",
+      "2 aldeanos a madera",
+      "Aldeano 9 atrae jabalí al TC",
+      "Aldeano 10 se une al jabalí",
+      "Aldeano 11 construye casa",
+      "Aldeano 12 + aldeano 11 construyen molino",
+      "Aldeanos 13 y 14 a bayas (total 4)",
+      "Aldeanos 15 y 16 a ovejas/jabalíes/ciervos",
+      "Aldeanos 17 y 18 a madera (total 4)",
+      "Aldeano 19 comienza a wallear y construye Cuartel y Casa",
+      "Clic a Feudal (preferiblemente sin Telar)",
+      "Al clickear Feudal: +5 aldeanos a nuevo bosque (total 9 en madera)",
+      "2 aldeanos más a madera debajo del TC (total 11)",
+      "Investigar Hacha Doble y Collera",
+      "Construir Establo",
+      "Reasignar últimos 2 aldeanos de madera a comida",
+      "Comenzar producción de exploradores"
+    ],
+    "notas": "Si eres pocket, es obligatorio atraer ciervos al TC. No dejes de producir ejército hasta tener muralla completa. Los últimos aldeanos en madera vuelven a comida una vez investigadas las tecnologías y construido el establo."
+  }
+]

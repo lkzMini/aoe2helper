@@ -1,0 +1,441 @@
+/* Estilo base para el tema oscuro */
+body {
+  background-color: #121212; /* Fondo de la aplicación */
+  color: #E0E0E0; /* Color del texto */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+/* Contenedor principal */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 10px;
+  padding: 15px;
+  background-color: rgba(30, 30, 30, 1); /* Fondo sólido para el contenedor */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  transition: background-color 0.3s ease;
+}
+
+/* Estilos para el contenido (textos) */
+.content {
+  opacity: var(--content-opacity); /* Controlar la opacidad del texto */
+  transition: opacity 0.3s ease;
+}
+
+/* Asegúrate de que todos los textos hereden la opacidad */
+.container,
+.info-box,
+h1,
+h2,
+h3,
+p,
+label,
+span {
+  opacity: var(--content-opacity); /* Aplica la opacidad a todos los textos */
+  transition: opacity 0.3s ease;
+}
+
+/* Estilos para los botones de navegación */
+.nav-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.nav-btn {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #E0E0E0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nav-btn:hover {
+  background-color: #444;
+}
+
+.nav-btn.active {
+  background-color: #BB86FC;
+  color: #1E1E1E;
+}
+
+/* Secciones */
+.section {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+}
+
+.section.hidden {
+  display: none;
+}
+
+/* Ajuste para los contenedores de selección */
+.select-container {
+  margin-bottom: 15px;
+}
+
+.select-container label {
+  display: block;
+  margin-bottom: 5px;
+  color: #E0E0E0;
+}
+
+/* Selects */
+select {
+  width: 100%;
+  padding: 8px;
+  background-color: #2D2D2D;
+  color: #E0E0E0;
+  border: 1px solid #444;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: clamp(0.8rem, 2vw, 1rem);
+}
+
+select:focus {
+  outline: none;
+  border-color: #BB86FC;
+}
+
+/* Info boxes */
+.info-box {
+  margin-top: 15px;
+  padding: 15px;
+  background-color: #242424;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
+  flex: 1;
+  min-height: 200px;
+  color: #E0E0E0;
+  opacity: var(--content-opacity);
+  transition: opacity 0.3s ease;
+}
+
+/* Headings */
+h1 {
+  font-size: clamp(1.2rem, 4vw, 2rem);
+  margin: 0 0 15px 0;
+  color: #E0E0E0;
+}
+
+h2 {
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  margin-bottom: 10px;
+  color: #BB86FC;
+}
+
+h3 {
+  color: #E0E0E0;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+/* Lists */
+ol {
+  color: #E0E0E0;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1E1E1E;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #777;
+}
+
+/* Strong tags */
+strong {
+  color: #BB86FC;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+/* Media queries para responsividad */
+@media (max-width: 600px) {
+  .container {
+    margin: 5px;
+    padding: 10px;
+  }
+
+  .nav-buttons {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .info-box {
+    padding: 10px;
+  }
+}
+
+/* Notificación de cambio de modo */
+.mode-notification {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #BB86FC;
+  color: #1E1E1E;
+  padding: 10px 20px;
+  border-radius: 5px;
+  z-index: 1000;
+  animation: slideUp 0.3s ease-out;
+}
+
+.mode-notification.fade-out {
+  animation: fadeOut 0.5s ease-out forwards;
+}
+
+/* Animaciones */
+@keyframes slideUp {
+  from {
+    transform: translate(-50%, 100%);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-50%, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* Variables CSS */
+:root {
+  --background-transparency: 1; /* Valor por defecto */
+  --content-opacity: 1; /* Valor por defecto */
+}
+
+/* Estilos para modo compacto */
+.compact-mode .container {
+  background-color: rgba(30, 30, 30, calc(1 - var(--background-transparency)));
+  backdrop-filter: blur(calc(var(--background-transparency) * 5px));
+  max-width: 400px;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+.compact-mode .info-box {
+  background-color: rgba(36, 36, 36, calc(1 - var(--background-transparency)));
+}
+
+/* Opacidad del contenido */
+.compact-mode .container * {
+  opacity: var(--content-opacity);
+}
+
+/* Mantener controles de configuración siempre visibles */
+.settings-group,
+.settings-group * {
+  opacity: 1 !important;
+  background-color: rgba(36, 36, 36, 0.9) !important;
+}
+
+/* Asegurar que los selects sean legibles */
+.compact-mode select {
+  background-color: rgba(45, 45, 45, 0.7);
+}
+
+/* Estado de interacción */
+.compact-mode:not(.interaction-enabled) * {
+  cursor: none !important;
+}
+
+/* Mantener el texto visible independientemente de la transparencia */
+.compact-mode .container,
+.compact-mode .info-box,
+.compact-mode h1,
+.compact-mode h2,
+.compact-mode h3,
+.compact-mode p,
+.compact-mode select,
+.compact-mode option,
+.compact-mode label {
+  color: rgba(224, 224, 224, 1) !important;
+}
+
+/* Asegurar que el contenido sea legible */
+.compact-mode select,
+.compact-mode option {
+  background-color: rgba(45, 45, 45, calc(1 - var(--compact-opacity)));
+}
+
+/* Estilos para configuración */
+.settings-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.settings-group {
+  background-color: #242424;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.setting-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="range"] {
+  flex: 1;
+  height: 5px;
+  -webkit-appearance: none;
+  appearance: none;
+  background: #333;
+  border-radius: 5px;
+  outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  background: #BB86FC;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.opacity-value {
+  min-width: 40px;
+  text-align: right;
+}
+
+/* Cursor para modo no interactuable */
+.compact-mode:not(.interaction-enabled) * {
+  cursor: none !important;
+}
+
+/* Estado de interacción */
+.compact-mode:not(.interaction-enabled) .container {
+  opacity: var(--compact-opacity);
+}
+
+.compact-mode.interaction-enabled .container {
+  opacity: 1;
+}
+
+/* Estilos para la configuración de atajos */
+.shortcuts-container {
+  padding: 15px;
+  background-color: #242424;
+  border-radius: 8px;
+}
+
+.shortcut-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #2d2d2d;
+  border-radius: 5px;
+}
+
+.shortcut-btn {
+  background-color: #333;
+  color: #E0E0E0;
+  border: 1px solid #444;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.shortcut-btn:hover {
+  background-color: #444;
+}
+
+.shortcut-btn.listening {
+  background-color: #BB86FC;
+  color: #1E1E1E;
+}
+
+/* Estilos para app pausada */
+.app-paused {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.app-paused .container {
+  filter: grayscale(100%);
+}
+
+/* Asegurar que los botones de atajo sean clickeables */
+.shortcut-btn {
+  position: relative;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.shortcut-btn.listening {
+  background-color: #BB86FC;
+  color: #1E1E1E;
+}
+
+/* Estilo para el contenedor arrastrable */
+#draggable-container {
+  cursor: move; /* Cambiar el cursor para indicar que se puede arrastrar */
+  padding: 10px; /* Espaciado interno */
+}
+
+/* Asegúrate de que los elementos internos no hereden el cursor de arrastre */
+#draggable-container * {
+  cursor: default; /* Restablecer el cursor a predeterminado para los elementos internos */
+}
+
+/* Estilos para modo compacto */
+.compact-mode {
+  background-color: rgba(30, 30, 30, 0.9); /* Fondo oscuro */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Borde sutil */
+  border-radius: 8px; /* Bordes redondeados */
+}
