@@ -7,80 +7,48 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="draggable-container">
-    <div class="container">
-      <h1>Age of Empires 2 - Guía Rápida</h1>
-      <div class="content">
-        <div class="nav-buttons">
-          <button id="civs-btn" class="nav-btn active">Civilizaciones</button>
-          <button id="builds-btn" class="nav-btn">Build Orders</button>
-          <button id="settings-btn" class="nav-btn">Configuración</button>
-        </div>
+  <div class="container">
+    <h1 id="app-title">Age of Empires 2 - Guía rápida</h1>
+    
+    <div class="language-selector">
+      <label for="language-select">Selecciona el idioma:</label>
+      <select id="language-select">
+        <option value="es">Español</option>
+        <option value="en">English</option>
+        <option value="kr">한국어</option>
+        <option value="zh">中文</option>
+        <option value="pt">Português</option>
+      </select>
+    </div>
 
-        <div id="civs-section" class="section">
-          <div class="select-container">
-            <label for="civilizacion-select">Selecciona la civilización rival:</label>
-            <select id="civilizacion-select">
-              <option value="">-- Selecciona una civilización --</option>
-            </select>
-          </div>
-          
-          <div id="informacion-civilizacion" class="info-box">
-            <p>Selecciona una civilización para ver sus estrategias.</p>
-          </div>
-        </div>
-
-        <div id="builds-section" class="section hidden">
-          <div class="select-container">
-            <label for="build-order-select">Selecciona el Build Order:</label>
-            <select id="build-order-select">
-              <option value="">-- Selecciona un Build Order --</option>
-            </select>
-          </div>
-          
-          <div id="informacion-build" class="info-box">
-            <p>Selecciona un Build Order para ver los pasos.</p>
-          </div>
-        </div>
-
-        <div id="settings-section" class="section hidden">
-          <div class="settings-container">
-            <div class="settings-group">
-              <h3>Atajos de teclado</h3>
-              <div class="shortcuts-container">
-                <div class="shortcut-item">
-                  <span>Cambiar modo normal/compacto:</span>
-                  <button class="shortcut-btn" data-action="toggleMode">
-                    Presiona una tecla...
-                  </button>
-                </div>
-                <div class="shortcut-item">
-                  <span>Habilitar/deshabilitar interacción:</span>
-                  <button class="shortcut-btn" data-action="toggleInteraction">
-                    Presiona una tecla...
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <div class="settings-group">
-              <h3>Modo Compacto</h3>
-              <div class="setting-item">
-                <label for="background-transparency">Transparencia del fondo:</label>
-                <input type="range" id="background-transparency" min="0" max="1" step="0.05" value="0.15">
-                <span class="background-transparency-value">15%</span>
-              </div>
-              <div class="setting-item">
-                <label for="content-opacity">Opacidad del contenido:</label>
-                <input type="range" id="content-opacity" min="0.1" max="1" step="0.05" value="0.85">
-                <span class="content-opacity-value">85%</span>
-              </div>
-            </div>
-          </div>
-        </div>
+    <div class="tabs">
+      <button id="civilizaciones-tab">Civilizaciones</button>
+      <button id="build-orders-tab">Build Orders</button>
+      <button id="extra-tips-tab">Consejos Extra</button>
+    </div>
+    
+    <div id="civilizaciones-content" class="tab-content">
+      <div class="select-container">
+        <label for="civilizacion-select">Selecciona la civilización rival:</label>
+        <select id="civilizacion-select">
+          <option value="">-- Selecciona una civilización --</option>
+        </select>
+      </div>
+      <div id="informacion-civilizacion" class="info-box">
+        <p>Selecciona una civilización para ver sus estrategias.</p>
       </div>
     </div>
+    
+    <div id="build-orders-content" class="tab-content" style="display: none;">
+      <h2>Build Orders</h2>
+      <p>Aquí puedes agregar información sobre las build orders.</p>
+    </div>
+    
+    <div id="extra-tips-content" class="tab-content" style="display: none;">
+      <h2>Consejos Extra</h2>
+      <p>Aquí puedes agregar consejos adicionales para mejorar tu juego.</p>
+    </div>
   </div>
+  <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
-</html> 
+</html>
