@@ -1,0 +1,42 @@
+{
+  "es": {
+    "title": "AOE2 Helper",
+    "civilizations": "Civilizaciones",
+    "buildOrders": "Build Orders",
+    "extraTips": "Consejos Extra",
+    "selectCivilization": "Selecciona la civilización rival:",
+    "selectTip": "Selecciona una civilización para ver sus estrategias."
+  },
+  "en": {
+    "title": "AOE2 Helper",
+    "civilizations": "Civilizations",
+    "buildOrders": "Build Orders",
+    "extraTips": "Extra Tips",
+    "selectCivilization": "Select the rival civilization:",
+    "selectTip": "Select a civilization to see its strategies."
+  },
+  "kr": {
+    "title": "AOE2 도우미",
+    "civilizations": "문명",
+    "buildOrders": "빌드 오더",
+    "extraTips": "추가 팁",
+    "selectCivilization": "상대 문명을 선택하세요:",
+    "selectTip": "전략을 보려면 문명을 선택하세요."
+  },
+  "zh": {
+    "title": "AOE2助手",
+    "civilizations": "文明",
+    "buildOrders": "建造顺序",
+    "extraTips": "额外提示",
+    "selectCivilization": "选择对手文明:",
+    "selectTip": "选择一个文明以查看其策略。"
+  },
+  "pt": {
+    "title": "AOE2 Helper",
+    "civilizations": "Civilizações",
+    "buildOrders": "Ordens de Construção",
+    "extraTips": "Dicas Extras",
+    "selectCivilization": "Selecione a civilização rival:",
+    "selectTip": "Selecione uma civilização para ver suas estratégias."
+  }
+} 

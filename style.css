@@ -157,3 +157,27 @@ select {
 ::-webkit-scrollbar-thumb:hover {
   background-color: #777;
 }
+
+/* Estilo para el selector de idioma */
+.language-selector {
+  position: absolute; /* Posiciona el contenedor de forma absoluta */
+  top: 10px; /* Espacio desde la parte superior */
+  right: 10px; /* Espacio desde la derecha */
+  background-color: #1E1E1E; /* Fondo oscuro para el recuadro */
+  padding: 10px; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra para el recuadro */
+}
+
+.language-selector label {
+  color: #E0E0E0; /* Color del texto */
+  margin-right: 5px; /* Espacio entre el label y el select */
+}
+
+.language-selector select {
+  background-color: #1F1F1F; /* Fondo del select */
+  color: #E0E0E0; /* Color del texto */
+  border: 1px solid #333; /* Borde del select */
+  border-radius: 5px; /* Bordes redondeados */
+  padding: 5px; /* Espaciado interno */
+}

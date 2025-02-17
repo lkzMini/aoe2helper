@@ -8,17 +8,48 @@
 </head>
 <body>
   <div class="container">
-    <h1>Age of Empires 2 - Guía rápida</h1>
+    <h1 id="app-title">Age of Empires 2 - Guía rápida</h1>
     
-    <div class="select-container">
-      <label for="civilizacion-select">Selecciona la civilización rival:</label>
-      <select id="civilizacion-select">
-        <option value="">-- Selecciona una civilización --</option>
+    <div class="language-selector">
+      <label for="language-select">Selecciona el idioma:</label>
+      <select id="language-select">
+        <option value="es">Español</option>
+        <option value="en">English</option>
+        <option value="kr">한국어</option>
+        <option value="zh">中文</option>
+        <option value="pt">Português</option>
       </select>
     </div>
+
+    <div class="tabs">
+      <button id="civilizaciones-tab">Civilizaciones</button>
+      <button id="build-orders-tab">Build Orders</button>
+      <button id="extra-tips-tab">Consejos Extra</button>
+    </div>
     
-    <div id="informacion-civilizacion" class="info-box">
-      <p>Selecciona una civilización para ver sus estrategias.</p>
+    <div id="civilizaciones-content" class="tab-content">
+      <!-- Contenido de Civilizaciones -->
+      <div class="select-container">
+        <label for="civilizacion-select">Selecciona la civilización rival:</label>
+        <select id="civilizacion-select">
+          <option value="">-- Selecciona una civilización --</option>
+        </select>
+      </div>
+      
+      <div id="informacion-civilizacion" class="info-box">
+        <p>Selecciona una civilización para ver sus estrategias.</p>
+      </div>
+    </div>
+    
+    <div id="build-orders-content" class="tab-content" style="display: none;">
+      <!-- Contenido de Build Orders -->
+      <h2>Build Orders</h2>
+      <p>Aquí puedes agregar información sobre las build orders.</p>
+    </div>
+    
+    <div id="extra-tips-content" class="tab-content" style="display: none;">
+      <h2>Consejos Extra</h2>
+      <p>Aquí puedes agregar consejos adicionales para mejorar tu juego.</p>
     </div>
   </div>
 </body>
