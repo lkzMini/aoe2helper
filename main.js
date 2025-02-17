@@ -41,7 +41,7 @@ function createWindow() {
     hasShadow: true,
   });
 
-  mainWindow.loadFile('renderer/index.html');
+  mainWindow.loadFile(path.join(__dirname, 'renderer', 'index.html'));
 
   // Aplicar configuración de transparencia y opacidad
   mainWindow.setOpacity(config.opacity);
